@@ -5,6 +5,7 @@ import { HomeComponent } from 'src/app/modules/home/home.component';
 import { PostsComponent } from 'src/app/modules/posts/posts.component';
 import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { SharedModule } from 'src/app/shared/shared.module';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     CommonModule,
     RouterModule,
     FlexLayoutModule,
+    SharedModule
   ]
 })
 export class DefaultModule { }
