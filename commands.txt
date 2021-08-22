@@ -19,3 +19,10 @@ In css, below is parent element(div)
 
 fxFlex is used in html for full width
 
+finished layouts
+
+npm i @angular/material @angular/cdk @angular/animations hammerjs
+        hammerjs is like toggle
+
+
+
