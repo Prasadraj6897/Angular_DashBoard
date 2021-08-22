@@ -10,7 +10,7 @@ import { FullWidthModule } from './layouts/full-width/full-width.module';
 
 @NgModule({
   declarations: [
-    AppComponent  
+    AppComponent
   ],
   imports: [
     BrowserModule,
