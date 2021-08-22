@@ -8,3 +8,7 @@ ng g c modules/home
 ng g c modules/posts
         (created home and post component folder)
 
+
+npm i -s @angular/flex-layout @angular/cdk
+        (for flex layout)
+
