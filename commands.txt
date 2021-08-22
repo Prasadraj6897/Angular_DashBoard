@@ -1,0 +1,10 @@
+ng g c layouts/default
+        (created component folder)
+
+ng g m layouts/default
+            (created default.modules.ts file inside layouts/default
+
+ng g c modules/home
+ng g c modules/posts
+        (created home and post component folder)
+
