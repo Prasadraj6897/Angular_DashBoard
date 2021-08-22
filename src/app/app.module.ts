@@ -4,19 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DefaultModule } from './layouts/default/default.module';
-import { FullWidthComponent } from './layouts/full-width/full-width.component';
+import { FullWidthModule } from './layouts/full-width/full-width.module';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    FullWidthComponent   
+    AppComponent  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DefaultModule
+    DefaultModule,
+    FullWidthModule
   ],
   providers: [],
   bootstrap: [AppComponent]
