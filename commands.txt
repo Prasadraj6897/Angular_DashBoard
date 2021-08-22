@@ -12,3 +12,10 @@ ng g c modules/posts
 npm i -s @angular/flex-layout @angular/cdk
         (for flex layout)
 
+In css, below is parent element(div)
+        :host{
+
+        }
+
+fxFlex is used in html for full width
+
